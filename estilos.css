@@ -1,0 +1,59 @@
+.fundo-cinza{
+    background-color: #333;
+}
+
+.topo{
+    padding: 20px;
+    color: #d1d1d1;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.letra-logo{
+    color: rgb(146, 205, 251);
+}
+
+.topo-fluido{
+    border-top: 1px solid gray;
+}
+
+.menu{
+    display: flex;
+    gap: 5px;
+}
+
+.menu li{
+    list-style: none;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.menu li a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.menu li a:hover{
+    background-color: dodgerblue;
+    color: #333;
+    transition: 1s;
+}
+
+.principal{
+    padding: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.cont{
+    height: 500px;
+}
+
+.principal-2{
+    padding: 20px;
+    color: #333;
+    font-family: 'Courier New', Courier, monospace;
+}
